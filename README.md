@@ -1,5 +1,7 @@
 # MirageOS tutorial at bobkonf 2019
 
+[![Build Status](https://travis-ci.org/hannesm/mirageos-bobkonf2019-tutorial.svg?branch=master)](https://travis-ci.org/hannesm/mirageos-bobkonf2019-tutorial)
+
 In this repository are some example unikernels, used as tutorial introduction
 at Bobkonf 2019.
 
