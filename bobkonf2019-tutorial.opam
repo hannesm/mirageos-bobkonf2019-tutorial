@@ -1,0 +1,14 @@
+opam-version: "2.0"
+maintainer: "Hannes Mehnert"
+authors: ["Hannes Mehnert"]
+homepage: "https://github.com/hannesm/mirageos-bobkonf-tutorial"
+doc: "https://hannesm.github.com/mirageos-bobkonf-tutorial"
+dev-repo: "git+https://github.com/hannesm/mirageos-bobkonf-tutorial.git"
+bug-reports: "https://github.com/hannesm/mirageos-bobkonf-tutorial/issues"
+license: "public domain"
+
+depends: [
+  "mirage" {>= "3.5.0"}
+]
+
+synopsis: "Unikernels for bobkonf 2019 tutorial"
