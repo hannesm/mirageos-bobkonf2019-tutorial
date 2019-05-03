@@ -11,9 +11,9 @@ let dns_handler =
     let pin = "git+https://github.com/roburio/udns.git" in
     [
       package "logs" ;
-      package ~pin "udns";
-      package ~pin "udns-client";
-      package ~pin "udns-mirage-client";
+      package ~pin "dns";
+      package ~pin "dns-client";
+      package ~pin "dns-mirage-client";
     ]
   in
   foreign
@@ -23,4 +23,4 @@ let dns_handler =
     "Unikernel.Main" (stackv4 @-> job)
 
 let () =
-  register "dns-client" [dns_handler $ generic_stackv4 default_network ]
+  register "client" [dns_handler $ generic_stackv4 default_network ]

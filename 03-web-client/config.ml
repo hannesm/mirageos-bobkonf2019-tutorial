@@ -8,9 +8,9 @@ let client =
   let packages =
     let pin = "git+https://github.com/roburio/udns.git" in
     [
-      package ~pin "udns";
-      package ~pin "udns-client";
-      package ~pin "udns-mirage-client";
+      package ~pin "dns";
+      package ~pin "dns-client";
+      package ~pin "dns-mirage-client";
       package ~pin:"git+https://github.com/hannesm/ocaml-conduit.git#udns" "mirage-conduit";
       package "cohttp-mirage";
       package "duration" ;
